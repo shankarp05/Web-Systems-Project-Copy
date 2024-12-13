@@ -1,0 +1,93 @@
+@import url("../../resources/base.css");
+@import url("nav.css");
+@import url("home.css");
+
+#chat {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#messages {
+    list-style-type: none;
+    padding: 0;
+    height: 200px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+}
+
+#messages li {
+    padding: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+#send-message {
+    display: flex;
+}
+
+#chat-txt {
+    flex: 1;
+    padding: 5px;
+}
+
+#chat-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.timestamp {
+    font-size: 0.8em;
+    color: #888;
+    margin-left: 5px;
+}
+
+.current-user {
+    text-align: right;
+    background-color: #d1f8d1;
+}
+
+.other-user {
+    text-align: left;
+    background-color: #f1f1f1;
+}
+
+#user-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.user-btn {
+    width: 100%;  /* Makes buttons full width of container */
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.user-btn:hover {
+    background-color: #f0f0f0;
+}
+
+#chat-box{
+    margin-top: 10%;
+    /* height: 80%; */
+    
+}
+
+.start-chat-message{
+    color: grey; 
+}
+
+.group-btn{
+    display: flex;
+    flex-direction: column;
+}
